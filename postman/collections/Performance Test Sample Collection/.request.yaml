@@ -1,0 +1,14 @@
+$kind: http-request
+name: ""
+url: http://localhost:8081/saveEmployee
+method: POST
+body:
+  type: urlencoded
+  content:
+    - key: fullName
+      value: Kamal Perera
+    - key: email
+      value: kamal@gmail.com
+    - key: department
+      value: IT
+order: 1000
